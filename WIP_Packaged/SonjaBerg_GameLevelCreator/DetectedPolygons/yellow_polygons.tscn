@@ -1,0 +1,18 @@
+[gd_scene load_steps=1 format=3 uid="uid://multiple_collision_polygons_gen"]
+
+[node name="SonjaBerg_GameLevelCreator\DetectedPolygons\yellow_polygons" type="StaticBody2D"]
+
+[node name="Polygon2D_0" type="Polygon2D" parent="."]
+color = Color(1, 1, 0.5, 1)
+polygon = PackedVector2Array(671.0, 829.0, 875.0, 823.0, 880.0, 926.0, 673.0, 930.0)
+
+[node name="CollisionPolygon2D_0" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(671.0, 829.0, 875.0, 823.0, 880.0, 926.0, 673.0, 930.0)
+
+[node name="Polygon2D_1" type="Polygon2D" parent="."]
+color = Color(1, 1, 0.5, 1)
+polygon = PackedVector2Array(51.0, 650.0, 265.0, 649.0, 262.0, 782.0, 52.0, 780.0)
+
+[node name="CollisionPolygon2D_1" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(51.0, 650.0, 265.0, 649.0, 262.0, 782.0, 52.0, 780.0)
+

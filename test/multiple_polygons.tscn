@@ -1,0 +1,7 @@
+[gd_scene load_steps=1 format=3 uid="uid://multiple_collision_polygons_gen"]
+
+[node name="PolygonsObjs" type="StaticBody2D"]
+
+[node name="CollisionPolygon2D_0" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(718.0, 108.0, 801.0, 128.0, 736.0, 444.0, 647.0, 426.0)
+
